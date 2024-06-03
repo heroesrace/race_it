@@ -9,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
-	z-index:-3;
+    z-index: -3;
   }
   .background-image {
     width: 200%;
@@ -18,11 +18,11 @@
     position: absolute;
     left: 0;
     right: 0;
-	  bottom:830px;
+    bottom: 830px;
     display: block;
     z-index: -1;
     background-repeat: repeat-x;
-}
+  }
 
   .header-background {
     position: absolute;
@@ -71,7 +71,6 @@
     }
   }
   
-  
   .car {
     text-align: center;
     width: 300px;
@@ -81,43 +80,23 @@
     background-repeat: no-repeat;
     position: absolute;
     bottom: 1;
-    left:0;
+    left: 0;
     margin-top: -70px;
     transform-origin: bottom;
     z-index: 5;
   }
   
   .bushes {
-  width: 200%; /* Занимает всю ширину контейнера дороги */
-  height: 200px; /* Высота кустов (можете изменить по своему усмотрению) */
-  background-image: url('grass1.png'); /* Путь к изображению с кустами */
-  background-repeat: repeat-x; /* Повторять изображение горизонтально */
-  position: absolute; /* Позиционируется относительно контейнера дороги */
-  bottom: 0; /* Прикрепить кусты к нижней части контейнера дороги */
-  z-index: 7; /* Разместить кусты за дорогой */
-  animation: bushes 15s linear infinite;
-	
-}
- @keyframes bushes {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
+    width: 200%;
+    height: 200px;
+    background-image: url('grass1.png');
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0;
+    z-index: 7;
+    animation: bushes 15s linear infinite;
   }
-  .bushes4 {
-  width: 200%; /* Занимает всю ширину контейнера дороги */
-  height: 200px; /* Высота кустов (можете изменить по своему усмотрению) */
-  background-image: url('grass2.png'); /* Путь к изображению с кустами */
-  background-repeat: repeat-x; /* Повторять изображение горизонтально */
-  position: absolute; /* Позиционируется относительно контейнера дороги */
-  bottom: 0; /* Прикрепить кусты к нижней части контейнера дороги */
-  z-index: 7; /* Разместить кусты за дорогой */
-  animation: bushes 15s linear infinite;
-	
-}
- @keyframes bushes {
+  @keyframes bushes {
     0% {
       transform: translateX(0%);
     }
@@ -126,220 +105,160 @@
     }
   }
   
-  .bushes1 {
-  width: 200%; /* Занимает всю ширину контейнера дороги */
-  height: 200px; /* Высота кустов (можете изменить по своему усмотрению) */
-  background-image: url('grass11.png'); /* Путь к изображению с кустами */
-  background-repeat: repeat-x; /* Повторять изображение горизонтально */
-  position: absolute; /* Позиционируется относительно контейнера дороги */
-  bottom: 0; /* Прикрепить кусты к нижней части контейнера дороги */
-  z-index: 7; /* Разместить кусты за дорогой */
-  animation: bushes1 15s linear infinite;
-	
-}
- @keyframes bushes1 {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-  .bushes2 {
-  width: 200%; /* Занимает всю ширину контейнера дороги */
-  height: 80px; /* Высота кустов (можете изменить по своему усмотрению) */
-  background-image: url('bushes2.png'); /* Путь к изображению с кустами */
-  background-repeat: repeat-x; /* Повторять изображение горизонтально */
-  position: absolute; /* Позиционируется относительно контейнера дороги */
-  bottom: 0; /* Прикрепить кусты к нижней части контейнера дороги */
-  z-index: 7; /* Разместить кусты за дорогой */
-  animation: bushes2 15s linear infinite;
-	
-}
- @keyframes bushes2 {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  
-  .bushes3 {
-  width: 200%; /* Занимает всю ширину контейнера дороги */
-  height: 200px; /* Высота кустов (можете изменить по своему усмотрению) */
-  background-image: url('grass3.png'); /* Путь к изображению с кустами */
-  background-repeat: repeat-x; /* Повторять изображение горизонтально */
-  position: absolute; /* Позиционируется относительно контейнера дороги */
-  bottom: 0; /* Прикрепить кусты к нижней части контейнера дороги */
-  z-index: 7; /* Разместить кусты за дорогой */
-  animation: bushes3 15s linear infinite;
-	
-}
- @keyframes bushes3 {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-   
   .sasha-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('car_sasha.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.jayden-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('car_jayden.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.tom-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('car_tom.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -75px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.conor-car {
-  text-align: center;
-  width: 300px;
-  height: 300px;
-  background-image: url('car_conor.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -80px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.ryan-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('car_ryan.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.maya-car {
-  text-align: center;
-  width: 490px;
-  height: 490px;
-  background-image: url('car_maya.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  margin-left: 0px;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.adam-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('car_adam.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.chris-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('car_chris_n.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.george-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('car_george.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.brian-car {
-  text-align: center;
-  width: 500px;
-  height: 500px;
-  background-image: url('scooter.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -105px;
-  transform-origin: bottom;
-  z-index: 5;
-}
-.victor-car {
-  text-align: center;
-  width: 300px;
-  height: 300px;
-  background-image: url('car_victor.gif'); /* Укажите путь к новому изображению */
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 1;
-  left: 0;
-  margin-top: -70px;
-  transform-origin: bottom;
-  z-index: 5;
-}
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_sasha.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .jayden-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_jayden.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .tom-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_tom.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .conor-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_zarafin1.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .ryan-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_ryan.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .maya-car {
+    text-align: center;
+    width: 490px;
+    height: 490px;
+    background-image: url('car_maya.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    margin-left: 0px;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .adam-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_adam.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .chris-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_chris_n.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .george-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_george.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .brian-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('scooter.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
+  .victor-car {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-image: url('car_ryan.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 1;
+    left: 0;
+    margin-top: -105px;
+    transform-origin: bottom;
+    z-index: 5;
+  }
   .flag {
     width: 130px;
     height: 130px;
@@ -360,14 +279,14 @@
     font-size: 28px;
     color: orange;
     transform: translateY(-50%);
-	z-index:5;
+    z-index: 5;
   }
   .victory-flag {
-  width: 140px; /* Желаемая ширина изображения */
-  height: 140px; /* Автоматическая высота для сохранения пропорций */
-  right: 440px;
-  margin-top: 20px;
-}
+    width: 140px;
+    height: 140px;
+    right: 440px;
+    margin-top: 20px;
+  }
   
   select {
     margin-bottom: 10px;
@@ -383,16 +302,28 @@
     opacity: 0;
   }
   
-
   .driver-info {
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     position: relative;
     color: white;
     top: 150px;
+    height: 70px;
     left: 10%;
     width: 160px;
     border-radius: 5px;
+  }
+  .driver-flag {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    
+    transform: translateY(-50%);
+  }
+  .driver-name {
+    margin-left: 70px;
   }
   .driver-position {
     background-color: rgba(0, 0, 0, 0.5);
@@ -418,33 +349,31 @@
   }
   
   .support-message {
-  position: absolute;
-  background-image: url('cloud.png'); /* Укажите путь к вашему изображению */
-  background-size: contain; /* Изображение будет сохранять пропорции и вписываться в блок */
-  background-repeat: no-repeat; /* Запретить повторение фона */
-  background-position: center; /* Выравнивание изображения по центру */
-  color: white; /* Цвет текста */
-  padding: 50px;
-  font-size: 20px;
-  top: -30px; /* Регулируйте вертикальное положение облака, чтобы оно было спереди автомобиля */
-  left: 160%; /* Регулируйте горизонтальное положение облака по центру контейнера */
-  z-index: 10;
-  display: inline-block; /* Для того чтобы ширина облака автоматически подстраивалась под содержимое */
-}
+    position: absolute;
+    background-image: url('cloud.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    font-size: 20px;
+    top: -30px;
+    left: 160%;
+    z-index: 10;
+    display: inline-block;
+  }
 
-.scrat{
-  position: absolute;
-  background-image: url('scrat.png');
-  background-size: contain; /* Изображение будет сохранять пропорции и вписываться в блок */
-  background-repeat: no-repeat; /* Запретить повторение фона */
-  width: 200px; /* Желаемая ширина изображения */
-  height: 200px;
-  margin-top: 110px;
-  margin-left: 100px;
-  z-index: 5;
-}
-
-
+  .scrat {
+    position: absolute;
+    background-image: url('scrat.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    margin-top: 110px;
+    margin-left: 100px;
+    z-index: 5;
+  }
 </style>
 </head>
 <body>
@@ -452,14 +381,11 @@
 <div class="grass-background"></div>
 <h1 class="header"></h1>
 <div class="scrat"></div> <!--Белка-->
-<div class="background-image">
-</div>
-
+<div class="background-image"></div>
 
 <div>
   <label for="driverSelect">Select driver: </label>
-  
- <select id="driverSelect" onchange="handleDriverChange()">
+  <select id="driverSelect" onchange="handleDriverChange()">
     <option value="0">SOPHIA</option>
     <option value="1">GIORGIO</option>
     <option value="2">MIRKO</option>
@@ -482,169 +408,193 @@
 <div class="race-container">
 
 <div class="road-container">
-    
-      <div class="start-line"></div>
-      <div class="car maya-car" id="car0">
-        <div class="driver-info">
-          <div class="driver-name">SOPHIA</div>
-          <div class="driver-position">Position: 0%</div>
-		  <div class="support-message" id="support-message">
-  Вперед ребята!
-</div>
-        </div>
-      </div>
-      <div class="flag" id="flag0"></div>
-      <div class="flag-text" id="flag-text0">VICTORY!</div>
-	  <div class="road" id="road1">
+  <div class="start-line"></div>
+  <div class="car maya-car" id="car0">
+    <div class="driver-info">
+      <img src="it.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">SOPHIA</div>
+      <div class="driver-position">Position: 0%</div>
+      <div class="support-message" id="support-message">Вперед ребята!</div>
     </div>
-
   </div>
-  
-  <div class="road-container">
-      <div class="start-line"></div>
-      <div class="car chris-car" id="car1">
-        <div class="driver-info">
-          <div class="driver-name">GIORGIO</div>
-          <div class="driver-position">Position: 0%</div>
-        </div>
-      </div>
-      <div class="flag" id="flag1"></div>
-      <div class="flag-text" id="flag-text1">VICTORY!</div>
-	  <div class="road" id="road2">
-    </div>
-
-	</div>
-	
-	 <div class="road-container">
-    
-      <div class="start-line"></div>
-      <div class="car jayden-car" id="car2">
-        <div class="driver-info">
-          <div class="driver-name">MIRKO</div>
-          <div class="driver-position">Position: 0%</div>
-        </div>
-      </div>
-      <div class="flag" id="flag2"></div>
-      <div class="flag-text" id="flag-text2">VICTORY!</div>
-	  <div class="road" id="road3">
-    </div>
-	
-  </div>
-
-  
-  <div class="road-container">
-    
-    <div class="start-line"></div>
-    <div class="car ryan-car" id="car3">
-      <div class="driver-info">
-        <div class="driver-name">DANIELE</div>
-        <div class="driver-position">Position: 0%</div>
-      </div>
-    </div>
-    <div class="flag" id="flag3"></div>
-    <div class="flag-text" id="flag-text3">VICTORY!</div>
-  <div class="road" id="road4">
-  </div>
-
+  <div class="flag" id="flag0"></div>
+  <div class="flag-text" id="flag-text0">VICTORY!</div>
+  <div class="road" id="road1"></div>
 </div>
 
 <div class="road-container">
-    
+  <div class="start-line"></div>
+  <div class="car tom-car" id="car1">
+    <div class="driver-info">
+      <img src="it.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">GIORGIO</div>
+      <div class="driver-position">Position: 0%</div>
+    </div>
+  </div>
+  <div class="flag" id="flag1"></div>
+  <div class="flag-text" id="flag-text1">VICTORY!</div>
+  <div class="road" id="road2"></div>
+</div>
+
+<div class="road-container">
+  <div class="start-line"></div>
+  <div class="car jayden-car" id="car2">
+    <div class="driver-info">
+      <img src="it.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">MIRKO</div>
+      <div class="driver-position">Position: 0%</div>
+    </div>
+  </div>
+  <div class="flag" id="flag2"></div>
+  <div class="flag-text" id="flag-text2">VICTORY!</div>
+  <div class="road" id="road3"></div>
+</div>
+
+<div class="road-container">
+  <div class="start-line"></div>
+  <div class="car chris-car" id="car3">
+    <div class="driver-info">
+      <img src="it.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">DANIELE</div>
+      <div class="driver-position">Position: 0%</div>
+    </div>
+  </div>
+  <div class="flag" id="flag3"></div>
+  <div class="flag-text" id="flag-text3">VICTORY!</div>
+  <div class="road" id="road4"></div>
+</div>
+
+<div class="road-container">
   <div class="start-line"></div>
   <div class="car brian-car" id="car4">
     <div class="driver-info">
+      <img src="it.svg" class="driver-flag" alt="Flag">
       <div class="driver-name">MARCO</div>
       <div class="driver-position">Position: 0%</div>
     </div>
   </div>
   <div class="flag" id="flag4"></div>
   <div class="flag-text" id="flag-text4">VICTORY!</div>
-<div class="road" id="road5">
+  <div class="road" id="road5"></div>
 </div>
 
+<div class="road-container">
+  <div class="start-line"></div>
+  <div class="car conor-car" id="car5">
+    <div class="driver-info">
+      <img src="fr.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">FRANCOIS</div>
+      <div class="driver-position">Position: 0%</div>
+    </div>
+  </div>
+  <div class="flag" id="flag5"></div>
+  <div class="flag-text" id="flag-text5">VICTORY!</div>
+  <div class="road" id="road6"></div>
 </div>
-  
-   <div class="road-container">
-    
+
+<div class="road-container">
+  <div class="start-line"></div>
+  <div class="car victor-car" id="car6">
+    <div class="driver-info">
+      <img src="fr.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">PAUL</div>
+      <div class="driver-position">Position: 0%</div>
+    </div>
+  </div>
+  <div class="flag" id="flag6"></div>
+  <div class="flag-text" id="flag-text6">VICTORY!</div>
+  <div class="road" id="road7"></div>
+</div>
 
 <script>
  var driversData = [
     {
       "name": "SOPHIA",
-      "roadLength": 65000,
-      "position": 0
+      "roadLength": 25000,
+      "position": 0,
+      "flag": "uk.svg"
     },
     {
       "name": "GIORGIO",
-      "roadLength": 65000,
-      "position": 0
+      "roadLength": 20000,
+      "position": 0,
+      "flag": "ro.svg"
     },
-	{
+    {
       "name": "MIRKO",
-      "roadLength": 55000,
-      "position": 0
+      "roadLength": 70000,
+      "position": 0,
+      "flag": "cy.svg"
     },
     {
       "name": "DANIELE",
-      "roadLength": 55000,
-      "position": 0
+      "roadLength": 30000,
+      "position": 0,
+      "flag": "gr.svg"
     },
     {
       "name": "MARCO",
-      "roadLength": 10000,
-      "position": 0
+      "roadLength": 5000,
+      "position": 0,
+      "flag": "am.svg"
     },
+    {
+      "name": "FRANCOIS",
+      "roadLength": 5000,
+      "position": 0,
+      "flag": "sk.svg"
+    },
+    {
+      "name": "PAUL",
+      "roadLength": 5000,
+      "position": 0,
+      "flag": "rs.svg"
+    }
   ];
-  
-  // Создайте массив сообщений поддержки для водителя TOM
+
 var tomSupportMessages = [
   "Come on!",
   "Do it together!",
   "To the end!",
   "Let's attack!",
   "Who will score first?",
-  // Добавьте другие сообщения поддержки для TOM
 ];
 
-// Создайте переменную, которая будет отслеживать индекс текущего сообщения поддержки для TOM
 var tomSupportMessageIndex = 0;
 
-// Получите элемент, который будет отображать сообщения поддержки
 var supportMessageElement = document.getElementById("support-message");
 
-// Напишите функцию, которая будет изменять текст сообщения поддержки каждые несколько секунд
 function changeSupportMessage() {
   supportMessageElement.textContent = tomSupportMessages[tomSupportMessageIndex];
   tomSupportMessageIndex = (tomSupportMessageIndex + 1) % tomSupportMessages.length;
 }
 
-// Вызовите функцию changeSupportMessage после загрузки страницы
 window.addEventListener("load", function() {
-  // Вызовите функцию changeSupportMessage сразу после загрузки страницы
   changeSupportMessage();
-  
-  // Настройте вызов этой функции с помощью setInterval, чтобы сообщения поддержки менялись автоматически каждые несколько секунд
-  setInterval(changeSupportMessage, 5000); // Изменяйте сообщение каждые 5 секунд
+  setInterval(changeSupportMessage, 5000);
 });
 
-  function handleDriverChange() {
+function handleDriverChange() {
     var selectedDriver = parseInt(document.getElementById("driverSelect").value);
     var car = document.querySelector(".car" + selectedDriver);
     var driver = driversData[selectedDriver];
     var driverNameElement = car.querySelector(".driver-name");
     var driverPositionElement = car.querySelector(".driver-position");
+    var driverFlagElement = car.querySelector(".driver-flag");
+
     driverNameElement.textContent = driver.name;
     driverPositionElement.textContent = "Position: " + (driver.position * 100).toFixed(2) + "%";
+    driverFlagElement.src = driver.flag;
+    driverFlagElement.alt = driver.name + " Flag";
     car.style.left = (driver.position * 100) + "%";
     localStorage.setItem("selectedDriver", selectedDriver);
     updateTournamentTable();
-  }
-  
-  function playCarAudio() {
+}
+
+function playCarAudio() {
   var audio = document.getElementById("carAudio");
   audio.play();
 }
-
 
 function moveCar(selectedDriver) {
   var driver = driversData[selectedDriver];
@@ -653,7 +603,7 @@ function moveCar(selectedDriver) {
  
   var startPosition = driver.position * 100;
   var endPosition = (driver.position * (100 - car.offsetWidth / window.innerWidth * 100));
-  var animationDuration = 100; // Продолжительность анимации в миллисекундах (5 секунд)
+  var animationDuration = 100;
 
   var startTime;
   function animate(time) {
@@ -676,39 +626,30 @@ function moveCar(selectedDriver) {
   requestAnimationFrame(animate);
 }
 
-// Обновляем позицию водителя Sophia
-driversData[0].position =  0 / driversData[0].roadLength;
-// Обновляем позицию водителя Giorgio
+driversData[0].position = 0 / driversData[0].roadLength;
 driversData[1].position = 0 / driversData[1].roadLength;
-// Обновляем позицию водителя Mirko
-driversData[2].position = 1036 / driversData[2].roadLength;
-// Обновляем позицию водителя Daniele
+driversData[2].position = 0 / driversData[2].roadLength;
 driversData[3].position = 0 / driversData[3].roadLength;
-// Обновляем позицию водителя Marko
 driversData[4].position = 0 / driversData[4].roadLength;
+driversData[5].position = 0 / driversData[5].roadLength;
+driversData[6].position = 0 / driversData[6].roadLength;
 
-moveCar(0); // Переместить автомобиль первого водителя
-moveCar(1); // Переместить автомобиль второго водителя
-moveCar(2); // Переместить автомобиль второго водителя
-moveCar(3); // Переместить автомобиль второго водителя
-moveCar(4); // Переместить автомобиль второго водителя
+moveCar(0);
+moveCar(1);
+moveCar(2);
+moveCar(3);
+moveCar(4);
+moveCar(5);
+moveCar(6);
 
-  function showVictory(driverIndex) {
-    var flag = document.getElementById("flag" + driverIndex);
-   flag.style.backgroundImage = "url('finish.gif')";
-flag.classList.add("victory-flag"); // Добавляем новый класс
-    var flagText = document.getElementById("flag-text" + driverIndex);
-    flagText.style.display = "block";
-	
-	// Добавьте код для изменения флага SASHA
-  if (driverIndex === "1") { // "1" - индекс водителя SASHA
-    var sashaFlag = document.querySelector(".sasha-flag");
-    sashaFlag.style.backgroundImage = "url('new-flag.gif')"; // Замените 'new-flag.gif' на путь к новому изображению флага
-  }
+function showVictory(driverIndex) {
+  var flag = document.getElementById("flag" + driverIndex);
+  flag.style.backgroundImage = "url('finish.gif')";
+  flag.classList.add("victory-flag");
+  var flagText = document.getElementById("flag-text" + driverIndex);
+  flagText.style.display = "block";
 }
 
-
-//смена дня и ночи
 function toggleDayNight() {
     var dayBackground = document.querySelector(".background-image.day");
     var nightBackground = document.querySelector(".background-image.night");
@@ -722,42 +663,39 @@ function toggleDayNight() {
     }
 }
 
-// Вызывайте функцию toggleDayNight каждые 5 секунд
-setInterval(toggleDayNight, 10000); // 5000 миллисекунд = 5 секунд
+setInterval(toggleDayNight, 10000);
 
-   function updateTournamentTable() {
-    var tournamentTable = document.getElementById("tournament-table");
-    var selectedDriver = document.getElementById("driverSelect").value;
-    var driver = driversData[selectedDriver];
-    var currentPosition = driver.position * 100;
-    driversData.sort(function(a, b) {
-      return b.position - a.position;
-    });
-    for (var i = 0; i < driversData.length; i++) {
-      var currentDriver = driversData[i];
-      var driverRow = tournamentTable.querySelector("tr[data-driver='" + currentDriver.name + "']");
-      if (!driverRow) {
-        driverRow = document.createElement("tr");
-        driverRow.setAttribute("data-driver", currentDriver.name);
-        tournamentTable.appendChild(driverRow);
-      }
-      var position = i + 1;
-      var positionText = position + (position === 1 ? "st" : position === 2 ? "nd" : position === 3 ? "rd" : "th");
-      driverRow.innerHTML = `
-        <td>${currentDriver.name}</td>
-        <td>${positionText}</td>
-      `;
+function updateTournamentTable() {
+  var tournamentTable = document.getElementById("tournament-table");
+  var selectedDriver = document.getElementById("driverSelect").value;
+  var driver = driversData[selectedDriver];
+  var currentPosition = driver.position * 100;
+  driversData.sort(function(a, b) {
+    return b.position - a.position;
+  });
+  for (var i = 0; i < driversData.length; i++) {
+    var currentDriver = driversData[i];
+    var driverRow = tournamentTable.querySelector("tr[data-driver='" + currentDriver.name + "']");
+    if (!driverRow) {
+      driverRow = document.createElement("tr");
+      driverRow.setAttribute("data-driver", currentDriver.name);
+      tournamentTable.appendChild(driverRow);
     }
+    var position = i + 1;
+    var positionText = position + (position === 1 ? "st" : position === 2 ? "nd" : position === 3 ? "rd" : "th");
+    driverRow.innerHTML = `
+      <td>${currentDriver.name}</td>
+      <td>${positionText}</td>
+    `;
   }
-  updateTournamentTable();
+}
+updateTournamentTable();
 
-	// Вызывайте функцию для автообновления страницы каждые 1 hour
- window.addEventListener("load", function() {
+window.addEventListener("load", function() {
   setInterval(function() {
     location.reload();
   }, 300000);
 });
-	
 </script>
 </body>
 </html>
