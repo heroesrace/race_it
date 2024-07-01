@@ -505,6 +505,37 @@
   <div class="flag-text" id="flag-text6">VICTORY!</div>
   <div class="road" id="road7"></div>
 </div>
+  
+<div class="road-container">
+  <div class="start-line"></div>
+  <div class="car victor-car" id="car7">
+    <div class="driver-info">
+      <img src="fr.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">CELIA</div>
+      <div class="driver-position">Position: 0%</div>
+    </div>
+  </div>
+  <div class="flag" id="flag7"></div>
+  <div class="flag-text" id="flag-text7">VICTORY!</div>
+  <div class="road" id="road8"></div>
+</div>
+
+<div class="road-container">
+  <div class="start-line"></div>
+  <div class="car victor-car" id="car8">
+    <div class="driver-info">
+      <img src="fr.svg" class="driver-flag" alt="Flag">
+      <div class="driver-name">THEODOR</div>
+      <div class="driver-position">Position: 0%</div>
+    </div>
+  </div>
+  <div class="flag" id="flag8"></div>
+  <div class="flag-text" id="flag-text8">VICTORY!</div>
+  <div class="road" id="road9"></div>
+</div>
+
+
+
 
 <script>
  var driversData = [
@@ -516,19 +547,19 @@
     },
     {
       "name": "GIORGIO",
-      "roadLength": 20000,
+      "roadLength": 30000,
       "position": 0,
       "flag": "ro.svg"
     },
     {
       "name": "MIRKO",
-      "roadLength": 70000,
+      "roadLength": 20000,
       "position": 0,
       "flag": "cy.svg"
     },
     {
       "name": "DANIELE",
-      "roadLength": 30000,
+      "roadLength": 20000,
       "position": 0,
       "flag": "gr.svg"
     },
@@ -540,15 +571,27 @@
     },
     {
       "name": "FRANCOIS",
-      "roadLength": 5000,
+      "roadLength": 10000,
       "position": 0,
       "flag": "sk.svg"
     },
     {
       "name": "PAUL",
-      "roadLength": 5000,
+      "roadLength": 10000,
       "position": 0,
       "flag": "rs.svg"
+    }
+   {
+      "name": "CELIA",
+      "roadLength": 60000,
+      "position": 0,
+      "flag": "Switzerland.svg"
+    }
+     {
+      "name": "THEODOR",
+      "roadLength": 15000,
+      "position": 0,
+      "flag": "Switzerland.svg"
     }
   ];
 
@@ -627,19 +670,23 @@ function moveCar(selectedDriver) {
 }
 
 //Sophia
-driversData[0].position = 25000 / driversData[0].roadLength;
+driversData[0].position = 0 / driversData[0].roadLength;
 //Giorgio
-driversData[1].position = 2699 / driversData[1].roadLength;
+driversData[1].position = 0 / driversData[1].roadLength;
 //Mirko
-driversData[2].position = 70000 / driversData[2].roadLength;
+driversData[2].position = 0 / driversData[2].roadLength;
 //Daniele
-driversData[3].position = 9788 / driversData[3].roadLength;
+driversData[3].position = 0 / driversData[3].roadLength;
 //Marco
-driversData[4].position = 3088 / driversData[4].roadLength;
+driversData[4].position = 0 / driversData[4].roadLength;
 //Francois
 driversData[5].position = 0 / driversData[5].roadLength;
 //Paul
-driversData[6].position = 525 / driversData[6].roadLength;
+driversData[6].position = 0 / driversData[6].roadLength;
+//Celia
+driversData[7].position = 0 / driversData[7].roadLength;
+//Theodor
+driversData[8].position = 0 / driversData[8].roadLength;
 
 moveCar(0);
 moveCar(1);
@@ -648,6 +695,8 @@ moveCar(3);
 moveCar(4);
 moveCar(5);
 moveCar(6);
+moveCar(7);
+moveCar(8);
 
 function showVictory(driverIndex) {
   var flag = document.getElementById("flag" + driverIndex);
